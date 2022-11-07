@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.login__body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #dedede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login__body .login__box {
+  position: relative;
+  width: 62em;
+  background: #a4c2c2;
+  height: 27em;
+  box-shadow: 13px 20px 36px -13px;
+  border-radius: 12px;
+}
+.login__body .login__box .image__box img {
+  height: 27em;
+}
+.login__body .login__box form.login__form {
+  padding: 28px;
+  margin-top: 54px;
+}
+.login__body .login__box form.login__form h4 {
+  font-size: 30px;
+  margin-bottom: 37px;
+}
+.login__body .login__box form.login__form button.btn.btn-custom-submit {
+  background: #007dfe;
+  padding: 2px 14px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px 0px;
+  margin-top: 15px;
+}
+.login__body span.outshape {
+  width: 200px;
+  height: 200px;
+  background: #9a9eaa;
+}/*# sourceMappingURL=style.css.map */
